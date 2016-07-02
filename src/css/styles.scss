@@ -1,0 +1,25 @@
+$font:black;
+
+body{
+	color:$font;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+}
+
+.greeting-card{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dbd5d5;
+  .greeting-head{
+	background-color: #0b97c4;
+	color:white;
+	padding: 10px;
+  }
+  .greeting-body{
+	padding: 10px;
+  }
+}
+
+.card{
+  background-color: #2f6fad;
+  color:white;
+}
